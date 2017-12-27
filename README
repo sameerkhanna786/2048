@@ -1,5 +1,3 @@
-Version 2.0 7/6/2017.
-
 This directory contains my version of the CS61B project to create a working version of the popular game 2048. The size of the game and probabilities of certain numbers appearing are completely configurable.
 
 Future CS61B students note that this directory was shown to a 61B Teaching Assistant; as such it has properly been tagged by the autograder to check against plagiarism. You will be caught if you copy this.
