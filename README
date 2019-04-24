@@ -1,17 +1,14 @@
-This directory contains my version of the CS61B project to create a working version of the popular game 2048. The size of the game and probabilities of certain numbers appearing are completely configurable.
-
-Future CS61B students note that this directory was shown to a 61B Teaching Assistant; as such it has properly been tagged by the autograder to check against plagiarism. You will be caught if you copy this.
+This directory contains my version of the popular game 2048. The size of the game and probabilities of certain numbers appearing are completely configurable.
 
 CONTENTS:
 ---------
 
 README                 This file.
 
-Makefile               For those of you using the standard Unix tool chain
-                       rather than Eclipse, this file provides for some
+Makefile               This file provides for some
                        simple compilation/testing control.  See the
-                       comments in it for the targets provided.  Those of
-                       you using Eclipse will need it on the instructional
+                       comments in it for the targets provided.  If you are
+                       using Eclipse will need it on the instructional
                        machines (the commands 'make' and 'make check' must
                        work correctly on your submission, regardless of
                        which editor or IDE you used).
@@ -65,8 +62,8 @@ game2048/
 
 testing/                 Directory with integration test machinery.
 
-    tester.py          A Python 3 script for testing your program.  It makes
-                       use of the --testing option in your program to feed
+    tester.py          A Python 3 script for testing the program.  It makes
+                       use of the --testing option in the program to feed
                        in known moves.
     testing.py         A module that supports testing in general.
     *.in               Test scripts accepted by the tester.
